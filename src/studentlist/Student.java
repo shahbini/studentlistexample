@@ -13,6 +13,15 @@ public class Student
 {
     private String name;
     private int age;
+    private int partid;
+
+    public int getPartid() {
+        return partid;
+    }
+
+    public void setPartid(int partid) {
+        this.partid = partid;
+    }
 
     /**
      * @return the name
